@@ -17,7 +17,7 @@ augroup END
 
 function! WordFilter()
     setlocal noreadonly modifiable
-    exec "%!" . expand("$ANTIWORDHOME") . "/antiword -i 1 -s -f %:p"
+    exec "%!" . expand("$ANTIWORDHOME") . "/antiword -i 1 -s -f \"%:p\""
     " silent %s/^\s\+\.\s\+/ â¢ /
     setlocal nolist wrap
     setlocal readonly nomodifiable
