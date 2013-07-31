@@ -1,0 +1,9 @@
+[submodule "tools/python-docx"]
+	path = tools/python-docx
+	url = git://github.com/mikemaccana/python-docx.git
+[submodule "tools/xlrd"]
+	path = tools/xlrd
+	url = git://github.com/python-excel/xlrd.git
+[submodule "tools/xlsx2csv"]
+	path = tools/xlsx2csv
+	url = git://github.com/dilshod/xlsx2csv.git
